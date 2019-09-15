@@ -7,4 +7,4 @@ Dans ce repo vous pouvez trouver les documents concernant les mises à jour OTA 
 
 # Licence
 
-[WTF Pulibc Licence](http://www.wtfpl.net/about/)
+[WTF Pulibc Licence](http://www.wtfpl.net/txt/copying/)
