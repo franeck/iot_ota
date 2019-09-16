@@ -2,7 +2,7 @@
 
 La mise à jour "Over The Air" (OTA) permet aux objets connectés de mettre à jour leur software automatiquement à travers une connexion sans fil. Les améliorations et les corrections peuvent être appliquées à de multiples équipements sans effort.
 
-Dans ce document vous allez voir comment mettre en place les mises à jour OTA dans le cas du module ESP8266.
+Dans ce document vous allez voir comment mettre en place les mises à jour OTA pour le cas du module ESP8266.
 
 
 ## Prérequis
@@ -34,7 +34,7 @@ void loop() {
 
 ## Implémentation de l'OTA
 
-Afin d'implementer l'OTA dans votre programme ajoutez les éléments suivants:
+Afin d'implementer l'OTA dans votre programme, ajoutez les éléments suivants:
 
 Bibliothèques :
 
@@ -84,7 +84,7 @@ void loop() {
 
 ## Premier téléversement
 
-Avant de téléverser ce programme via la liaison série, vérifier dans le menu "Outils" que la "Flash size" sélectionnée correspond bien à votre module ESP8266. 
+Avant de téléverser ce programme via la liaison série, vérifiez dans le menu "Outils" que la "Flash size" sélectionnée correspond bien à votre module ESP8266. 
 
 Pour un ESP8266 ESP-12, il s'agit de **4M (1M SPIFFS)**. 
 
@@ -107,7 +107,7 @@ Selectionnez le port réseau et téléversez votre programme.
 Bravo! Votre ESP supporte désormais les mises à jour OTA.
 
 #### Remarque
-> Si vous supprimez par inadvertance ArduinoOTA.begin() ou ArduinoOTA.handle(), vous serez obligé de reconnecter votre ESP8266 à l'ordinateur via la connexion série pour y envoyer un nouveau programme.
+> Si vous supprimez par inadvertance `ArduinoOTA.begin()` ou `ArduinoOTA.handle()`, vous serez obligé de reconnecter votre ESP8266 à l'ordinateur via la connexion série pour y envoyer un nouveau programme.
 
 
 ## Sécurisez votre connexion
@@ -185,7 +185,6 @@ void setup() {
     }
 
     ArduinoOTA.setHostname("myEspModule"); 
-    ArduinoOTA.setPassword("my_password");
     ArduinoOTA.begin();
     
     Debug.begin("myEspModule");
@@ -240,4 +239,4 @@ Si tout va bien, les messages de l'ESP apparaîtront dans votre terminal.
 
 ## Conclusion
 
-Dans ce document vous avez appris comment configurer un ESP8266 pour reçcevoir des mises à jour OTA, ainsi que reçevoir les messages du debug à travers le Telnet.
+Dans ce document vous avez appris comment configurer un ESP8266 pour reçevoir des mises à jour OTA, ainsi que reçevoir les messages du debug à travers le Telnet.
