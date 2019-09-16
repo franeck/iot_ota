@@ -2,8 +2,8 @@
 
 Dans ce repo vous pouvez trouver les documents concernant les mises à jour OTA pour l'ESP8266.
 
-**tuto.md** - comment implémenter l'OTA    
-**td.md** - mise en pratique
+**TUTO.md** - comment implémenter l'OTA    
+**TD.md** - mise en pratique
 
 # Licence
 
