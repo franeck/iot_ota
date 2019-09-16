@@ -82,7 +82,7 @@ void loop() {
 }
 ```
 
-## Pemier téléversement
+## Premier téléversement
 
 Avant de téléverser ce programme via la liaison série, vérifier dans le menu "Outils" que la "Flash size" sélectionnée correspond bien à votre module ESP8266. 
 
@@ -185,6 +185,7 @@ void setup() {
     }
 
     ArduinoOTA.setHostname("myEspModule"); 
+    ArduinoOTA.setPassword("my_password");
     ArduinoOTA.begin();
     
     Debug.begin("myEspModule");
