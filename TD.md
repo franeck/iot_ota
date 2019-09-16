@@ -4,7 +4,7 @@ Ce TD vous permettra de vous excercer dans la mise à jour à distance de vos pr
 
 ## Exercice 1
 
-[Consulter le tuto OTA](https://github.com/franeck/iot_ota/blob/master/tuto.md) 
+[Consulter le tuto OTA](https://github.com/franeck/iot_ota/blob/master/TUTO.md) 
 
 1.1 Créez un programme qui imprimera un "Hello World" dans le moniteur série  
 1.2 Implémentez les mises à jour OTA et faites tourner le programme sans être connecté au PC. Que constatez vous concernant les messages?   
