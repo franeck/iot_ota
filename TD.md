@@ -7,7 +7,7 @@ Ce TD vous permettra de vous excercer dans la mise à jour à distance de vos pr
 [Consulter le tuto OTA](https://github.com/franeck/iot_ota/blob/master/tuto.md) 
 
 1.1 Créez un programme qui imprimera un "Hello World" dans le moniteur série  
-1.2 Implémentez les mises à jour OTA et faites toruner le programme sans être connecté au PC. Que constatez vous concernant les messages?   
+1.2 Implémentez les mises à jour OTA et faites tourner le programme sans être connecté au PC. Que constatez vous concernant les messages?   
 1.3 Pour restaurer la capacité de reçevoir les messages implémentez dans votre programme le RemoteDebug. Tout cela sans rebrancher la carte à l'ordinateur.   
 
 ## Exercice 2
